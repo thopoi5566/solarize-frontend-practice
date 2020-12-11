@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
 </head>
+
 <body>
+    <!-- nav -->
+    <div class="nav">
+        <nav class="nav__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+                <li class="nav__item nav__dropdown">
+                    <a href="#" class="nav__link">dropdown</a>
+                    <div class="nav__dropdown-content">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link">Lorem ipsum dolor</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Magna phasellus</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Etiam dolore nisl</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Phasellus consequat</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Veroeros feugiat</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav__item"><a href="#" class="nav__link">left sidebar</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">right sidebar</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">no sidebar</a></li>
+            </ul>
+        </nav>
+    </div>
     <!-- header section -->
     <header class="header">
         <div class="header__text-box">
-            <h1 class="heading-primary">
-                <span class="heading-primary--main">SOLARIZE</span>
-                <span class="heading-primary--sub">DESIGN BY TEMPLATED</span>
+            <h1 class="heading-primary heading-primary--main">
+                SOLARIZE
             </h1>
-            <p>PELLENTESQUE PEDE. DONEC PULVINAR ULLAMCORPER METUS. IN EU ODIO AT LECTUS PULVINAR MOLLIS. VESTIBULUM SEM MAGNA.</p>
+            <span class="heading-primary heading-primary--sub">DESIGN BY TEMPLATED</span>
+            <p class="heading-primary">PELLENTESQUE PEDE. DONEC PULVINAR ULLAMCORPER METUS. IN EU ODIO AT LECTUS
+                PULVINAR MOLLIS. VESTIBULUM SEM MAGNA.</p>
         </div>
     </header>
 
@@ -31,4 +57,5 @@
 
     </footer>
 </body>
+
 </html>

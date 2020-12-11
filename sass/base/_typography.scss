@@ -1,6 +1,34 @@
+// basic font
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    line-height: 1.7;
-    color: $color-white;
+    line-height: 1.5;
+    color: $color-gray-dark;
+}
+
+.heading-primary {
+    color: $color-gray-light-1;
+    text-transform: uppercase;
+
+    &--main {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 4.8rem;
+        background-color: $color-green-primary;
+        padding: 0 1.4rem;
+        margin: 0;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2.56rem;
+        font-weight: 300;
+        margin: 1.4rem 0;
+    }
+
+    &--sub + p {
+        font-size: 2.56rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
 }

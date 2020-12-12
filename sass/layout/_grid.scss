@@ -1,0 +1,9 @@
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col-1-2 {
+    flex-basis: 50%;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+    padding: 9.6rem 0 6.4rem 0;
+}
+
+.section-one {
+    background-color: #f2f2f2;
+    & .row {
+        justify-content: space-between;
+    }
+    & .col-1-2 {
+        flex-basis: 45%;
+    }
+
+    & p:last-child {
+        text-transform: capitalize;
+        font-size: 2.24rem;
+    }
+}

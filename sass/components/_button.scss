@@ -12,12 +12,19 @@
         transition: all .35s ease-in-out;
     }
 
-    &:link:hover,
-    &:visited:hover {
+    &:hover {
         color: $color-white;
         background-color: $color-green-primary;
     }
-    &-green-primary {
+    &--green-primary {
         color: $color-green-primary;
     }
+    &--reversedGreen {
+        color: $color-white;
+        &:hover {
+            color: $color-green-primary;
+            background-color: $color-white;
+        }
+    }
+
 }

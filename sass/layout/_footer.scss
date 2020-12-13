@@ -1,0 +1,39 @@
+.footer {
+    background-color: $color-gray-dark-3;
+    color: $color-gray-dark-2;
+    text-align: center;
+
+    & .heading-secondary--big {
+        color: $color-gray-light-1;
+    }
+
+    &__icon-list {
+        list-style: none;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: inline-block;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: $color-gray-dark-2;
+            transition: all .3s ease-in-out;
+        }
+        &:hover {
+            color: $color-gray-light-1;
+        }
+    }
+    &__item i {
+        font-size: 3.2rem;
+    }
+}
+
+.copyright {
+    padding: 10rem 0;
+}

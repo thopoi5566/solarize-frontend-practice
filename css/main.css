@@ -49,6 +49,8 @@ body {
   font-size: 2.88rem;
   font-weight: 400;
   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
 }
 
 .heading-secondary--big {
@@ -72,6 +74,11 @@ body {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+.heading-tertiary--style2 {
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .paragraph {
@@ -176,6 +183,50 @@ body {
 .staffInfo__img {
   border-radius: 50%;
   border: 10px solid #fff;
+}
+
+.footer {
+  background-color: #333;
+  color: #999;
+  text-align: center;
+}
+
+.footer .heading-secondary--big {
+  color: #f7f7f7;
+}
+
+.footer__icon-list {
+  list-style: none;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__item {
+  display: inline-block;
+}
+
+.footer__link:link, .footer__link:visited {
+  text-decoration: none;
+  color: #999;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.footer__link:hover {
+  color: #f7f7f7;
+}
+
+.footer__item i {
+  font-size: 3.2rem;
+}
+
+.copyright {
+  padding: 10rem 0;
 }
 
 .row {
@@ -295,6 +346,10 @@ body {
 
 .section-one {
   background-color: #f2f2f2;
+}
+
+.section-one .heading-secondary {
+  text-align: initial;
 }
 
 .section-one .col-1-2 {

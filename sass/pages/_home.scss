@@ -5,6 +5,10 @@
 .section-one {
     background-color: #f2f2f2;
 
+    & .heading-secondary {
+        text-align: initial;
+    }
+
     & .col-1-2 {
         flex-basis: 45%;
     }

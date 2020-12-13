@@ -1,0 +1,11 @@
+.staffInfo {
+    width: 27rem;
+    
+    &__link {
+        display: block;
+    }
+    &__img {
+        border-radius: 50%;
+        border: 10px solid $color-white;
+    }
+}

@@ -53,6 +53,7 @@ body {
 
 .heading-secondary--big {
   font-size: 4.16rem;
+  font-weight: 700;
 }
 
 .heading-secondary--sub {
@@ -67,6 +68,12 @@ body {
   text-transform: uppercase;
 }
 
+.heading-tertiary--style1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
 .paragraph {
   font-weight: 300;
   font-size: 1.6rem;
@@ -75,6 +82,10 @@ body {
 
 .paragraph--big {
   font-size: 2.56rem;
+}
+
+.u-margin-bottom-large {
+  margin-bottom: 6rem !important;
 }
 
 .u-margin-bottom-medium {
@@ -152,6 +163,19 @@ body {
 .feature-card p {
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+.staffInfo {
+  width: 27rem;
+}
+
+.staffInfo__link {
+  display: block;
+}
+
+.staffInfo__img {
+  border-radius: 50%;
+  border: 10px solid #fff;
 }
 
 .row {
@@ -296,5 +320,11 @@ body {
 
 .wrapper.section-three {
   padding: 9.6rem 0 10rem 0;
+}
+
+.section-four {
+  background-color: #82b440;
+  color: #fff;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

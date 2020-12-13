@@ -55,6 +55,12 @@ body {
   font-size: 4.16rem;
 }
 
+.heading-secondary--sub {
+  font-size: 2.24rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
 .heading-tertiary {
   font-size: 2.56rem;
   font-weight: 400;
@@ -110,12 +116,52 @@ body {
   background-color: #fff;
 }
 
+.feature-card {
+  list-style: none;
+  font-size: 1.92rem;
+}
+
+.feature-card li {
+  width: 33%;
+  height: 33%;
+  margin-bottom: 3rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.feature-card i {
+  color: #82b440;
+  font-size: 2.24rem;
+  padding-right: 2.2rem;
+}
+
+.feature-card .text-box {
+  display: inline-block;
+}
+
+.feature-card h3 {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.feature-card p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
 .row {
   max-width: 120rem;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .row--center {
@@ -246,5 +292,9 @@ body {
 .section-two p {
   padding: 0 12rem 3rem 12rem;
   line-height: 4.6rem;
+}
+
+.wrapper.section-three {
+  padding: 9.6rem 0 10rem 0;
 }
 /*# sourceMappingURL=main.css.map */

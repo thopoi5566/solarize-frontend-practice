@@ -2,12 +2,15 @@
     max-width: $grid-width;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+
     &--center {
         justify-content: center;
     }
     &--space-between {
         justify-content: space-between;
     }
+
 }
 
 .col-1-1 {
